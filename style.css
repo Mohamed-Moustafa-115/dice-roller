@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: hsl(201, 37%, 68%);
+}
+
+#numOfDices{
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+#setValue{
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: hsl(226, 67%, 52%);
+    border: 5px;
+    cursor: pointer;
+}
+
+#setValue:hover{
+    background-color: hsl(226, 67%, 42%);
+}
+
+#setValue:active{
+    background-color: hsl(226, 67%, 62%);
+}
+
+#diceResults{
+    margin: 10px;
+}
+
+#dice{
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px;
+}
